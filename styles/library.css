@@ -1,5 +1,30 @@
+body {
+  background: radial-gradient(circle,  #FFA500, #AA6000);
+  width: 100vw;
+  height: 100vh;
+  color: black;
+}
+
 .library {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+span {
+  color: white;
+}
+
+td {
+  padding: .5rem;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h4 {
+  padding: 1.2rem;
 }

@@ -12,7 +12,7 @@ function getLibrary(){
       $.each(data, function(index, value){
         $('.library').append(
           '<tr>' +
-          '<td>' + value.title + '</td>' +
+          '<td>' + '<span>' + value.title + '</span>' + '</td>' +
           '<td>' + value.album + '</td>' +
           '<td>' + value.artist + '</td>' +
           '<td>' + value.genre + '</td>' +
