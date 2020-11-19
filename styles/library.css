@@ -1,7 +1,5 @@
 body {
   background: radial-gradient(circle,  #FFA500, #AA6000);
-  width: 100vw;
-  height: 100vh;
   color: black;
 }
 
@@ -27,4 +25,22 @@ td {
 
 h4 {
   padding: 1.2rem;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+form {
+  padding: 1.5rem;
+  -moz-box-shadow: 5px 5px 10px black;
+  -webkit-box-shadow: 5px 5px 10px black;
+  box-shadow: 5px 5px 10px black;
+}
+
+button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
