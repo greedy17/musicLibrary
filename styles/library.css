@@ -44,3 +44,15 @@ button:hover {
   transform: scale(1.2);
   cursor: pointer;
 }
+
+input {
+  width: 17%;
+  border-radius: .3rem;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border-radius: .3rem;
+  width: 5%;
+}
