@@ -4,12 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/library.css">
+  <link rel="stylesheet" href="styles/music.css">
   <title>The Playlist</title>
 </head>
-
 <body>
 
   <h1><span>The</span> Playlist</h1>
+
+  <div class="muzieknootjes">
+    <div class="noot-1">
+    &#9835; &#9833;
+  </div>
+  <div class="noot-2">
+    &#9833;
+  </div>
+  <div class="noot-3">
+    &#9839; &#9834;
+  </div>
+  <div class="noot-4">
+    &#9834;
+  </div>
+  </div>
 
   <form class="search" action="">
     <input type="text" id="input" onkeyup="searchPlaylist()" placeholder=" search...">
@@ -25,7 +40,7 @@
     </div>
 
     <table id="myTable" class="library"></table>
-  
+      
   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
   <script src="scripts/library.js"></script>
 </body>
