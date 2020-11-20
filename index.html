@@ -12,19 +12,19 @@
   <h1><span>The</span> Playlist</h1>
 
   <form class="search" action="">
-    <input type="text" placeholder=" search...">
+    <input type="text" id="input" onkeyup="searchPlaylist()" placeholder=" search...">
     <button type="submit">search</button>
   </form>
 
     <div class="heading">
-      <h4>Title</h4>
+      <h4>Song</h4>
       <h4>Album</h4>
       <h4>Artist</h4>
       <h4>Genre</h4>
       <h4>Release date</h4>
     </div>
 
-    <div class="library"></div>
+    <table id="myTable" class="library"></table>
   
   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
   <script src="scripts/library.js"></script>

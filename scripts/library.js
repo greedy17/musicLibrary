@@ -25,3 +25,14 @@ function getLibrary(){
 }
 
 getLibrary();
+
+function searchPlaylist(){
+  $(function(){
+    $("#input").on("keyup", function() {
+      var value = $(this).val().toLowerCase();
+      $("#myTable tr").filter(function() {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+    });
+  });
+}
